@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <header>
+        <h1 class="sr-only">logo</h1>
+        <img src="#" alt="위니브 로고">
+    </header>
+    <main>
+        <h2 class="timer-name">TIMER</h2>
+
+        <div class="timer">
+            <div class="timer-display">
+                <span class="timer-label">HRS</span>
+                <input class="time-input" type="number" id="hours" min="0" max="23" value="0">
+                <span class="colon">:</span>
+            </div>
+            <div class="timer-display">
+                <span class="timer-label">MIN</span>
+                <input class="time-input" type="number" id="minutes" min="0" max="59" value="0">
+                <span class="colon">:</span>
+            </div>
+            <div class="timer-display">
+                <span class="timer-label">SEC</span>
+                <input class="time-input" type="number" id="seconds" min="0" max="59" value="0">
+                <span class="colon">:</span>
+            </div>
+
+        </div>
+            <div class="timer-button">
+                <button class="timer-start">
+                    <img src="#" alt="start">
+                </button>
+                <button class="timer-pause">
+                    <img src="#" alt="pause">
+                </button>
+                <button class="timer-reset">
+                    <img src="#" alt="reset">
+                </button>
+            </div>
+    </main>
+    <footer>
+        <h3 class="sr-only">footer</h3>
+        <span>ⓒ WENIV Corp.</span>
+    </footer>
+    <script type="module" src="test.js"></script>
+</body>
+</html>
